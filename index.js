@@ -4,9 +4,9 @@ console.log('hello')
 document.querySelector('#main').remove()
 
 /* Create your new element here and assign it to newHeader */
-const newHeader = document.createElement('h1')
-newHeader.id = "victory"
-newHeader.innerText = "Grace is the champion!"
+const header = document.createElement('h1')
+header.id = "victory"
+header.innerText = "Grace is the champion!"
 
 document.body.appendChild(newHeader)
 const newHeader = document.querySelector('#victory')
