@@ -8,5 +8,5 @@ const header = document.createElement('h1')
 header.id = "victory"
 header.innerText = "Grace is the champion!"
 
-document.body.appendChild(newHeader)
+document.body.appendChild(Header)
 const newHeader = document.querySelector('#victory')
